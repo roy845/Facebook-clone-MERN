@@ -1,0 +1,9 @@
+.table th,
+.table td {
+  border: 1px solid #000; /* You can adjust the border style and color here */
+}
+
+.table-row:hover {
+  background-color: lightgray;
+  cursor: pointer; /* Add a pointer cursor on hover to indicate interactivity */
+}

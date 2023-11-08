@@ -1,0 +1,22 @@
+{
+  "Activities": [
+    { "activity": "Eating", "emoji": "🍔" },
+    { "activity": "Sleeping", "emoji": "😴" },
+    { "activity": "Swimming", "emoji": "🏊" },
+    { "activity": "Reading", "emoji": "📖" },
+    { "activity": "Running", "emoji": "🏃" },
+    { "activity": "Cooking", "emoji": "🍳" },
+    { "activity": "Hiking", "emoji": "🥾" },
+    { "activity": "Shopping", "emoji": "🛒" },
+    { "activity": "Watching", "emoji": "📺" },
+    { "activity": "Drinking", "emoji": "🍹" },
+    { "activity": "Participating", "emoji": "🤝" },
+    { "activity": "Traveling", "emoji": "✈️" },
+    { "activity": "Listening", "emoji": "🎧" },
+    { "activity": "Searching", "emoji": "🔍" },
+    { "activity": "Thinking", "emoji": "💭" },
+    { "activity": "Playing", "emoji": "🎮" },
+    { "activity": "Advocating", "emoji": "📣" },
+    { "activity": "Celebrating", "emoji": "🎉" }
+  ]
+}

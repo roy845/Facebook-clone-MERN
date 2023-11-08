@@ -1,0 +1,123 @@
+.chatSidebar {
+  width: 300px;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  /* You can adjust the alignment and other styles as needed */
+}
+
+.header img {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebarList {
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: flex-start;
+
+  cursor: pointer;
+  list-style: none;
+}
+
+.sidebarListItemText {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+.sidebarListItemText:hover {
+  background-color: whitesmoke;
+}
+
+.sidebarListItemText strong {
+  margin-left: 10px;
+}
+
+.sidebarListItem:hover {
+  display: flex;
+  align-items: flex-start;
+
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  margin-right: 15px;
+}
+
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rightbarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightbarOffline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}

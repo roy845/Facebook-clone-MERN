@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px; /* Add your desired margin here */
+}
+
+.card-container > * {
+  flex: 1;
+  margin-right: 16px; /* Add your desired spacing between cards here */
+}
+
+.card-container > *:last-child {
+  margin-right: 0;
+}

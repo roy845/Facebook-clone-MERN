@@ -1,0 +1,72 @@
+/* itemsImageCarousel.css */
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -52px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -52px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.small-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.small-image {
+  width: 50px; /* Adjust the size of small images as needed */
+  height: 50px; /* Adjust the size of small images as needed */
+  margin: 0 10px; /* Adjust the spacing between small images as needed */
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.small-image.active {
+  opacity: 1;
+}

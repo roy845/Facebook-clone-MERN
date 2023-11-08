@@ -1,0 +1,17 @@
+.friendListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: "pointer";
+  background-color: white;
+  border: "1px solid black";
+}
+
+.friendListItem:hover {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: lightgray; /* Change this to the desired background color */
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+  cursor: "pointer";
+}
